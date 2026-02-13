@@ -4,10 +4,16 @@
   "features": {},
   "customizations": {
     "vscode": {
-      "extensions": ["Continue.continue"],
+      "extensions": [
+        "Continue.continue"
+      ],
       "settings": {
         "workbench.startupEditor": "none",
-        "continue.telemetryEnabled": false
+        "continue.telemetryEnabled": false,
+        "github.copilot.enable": {
+          "*": false
+        },
+        "github.copilot.chat.enabled": false
       }
     }
   },

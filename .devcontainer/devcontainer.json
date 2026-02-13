@@ -1,0 +1,17 @@
+{
+  "name": "Continue + OpenRouter",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Continue.continue"
+      ],
+      "settings": {
+        "workbench.startupEditor": "none",
+        "continue.telemetryEnabled": false
+      }
+    }
+  },
+  "forwardPorts": []
+}

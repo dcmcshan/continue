@@ -1,6 +1,6 @@
-# Continue + OpenRouter (Qwen3 Coder Agent)
+# Continue + OpenRouter (Qwen3 Coder Next)
 
-**Super simple:** open in Codespace and chat. OpenRouter key is already configured.
+**Zero setup for students:** open in Codespace and chat. Model and API key are baked in—no sign-in, no key, no model selection.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Aurnova/continue?quickstart=1)
 
@@ -8,24 +8,18 @@
 
 ## 1. Open in Codespace
 
-Use the **Open in GitHub Codespaces** link above, or **Code** → **Codespaces** → **Create codespace on main**. Continue is installed automatically when the codespace builds from the devcontainer.
+Use the **Open in GitHub Codespaces** link above, or **Code** → **Codespaces** → **Create codespace on main**. Continue is installed automatically.
 
-**If Continue isn’t there** (e.g. you opened the codespace before the devcontainer existed): **Command Palette** (`Ctrl+Shift+P` / `Cmd+Shift+P`) → **Codespaces: Rebuild Container**. After the rebuild, the extension will be installed.
+**If Continue isn’t there:** **Command Palette** (`Ctrl+Shift+P` / `Cmd+Shift+P`) → **Codespaces: Rebuild Container**.
 
-**Faster startup (prebuilds):** To make every student’s codespace start in seconds instead of 1–2 minutes, an org admin can enable prebuilds:
-
-1. Repo **Settings** → **Code & automation** → **Codespaces**.
-2. Under **Prebuild configuration**, click **Set up prebuild**.
-3. Choose branch **main**, config file **.devcontainer/devcontainer.json**.
-4. Trigger: **Every push** (or **On configuration change** to use fewer Actions minutes).
-5. Click **Create**. The first prebuild will run in Actions; after it completes, new codespaces use it automatically.
+**Faster startup (prebuilds):** An org admin can enable prebuilds so each student’s codespace starts in seconds: repo **Settings** → **Codespaces** → **Set up prebuild** (branch **main**, config **.devcontainer/devcontainer.json**).
 
 ## 2. Chat
 
-Click **Continue** in the sidebar or press **`Ctrl+L`** / **`Cmd+L`**. No API key step—Qwen3 Coder Agent via OpenRouter is already set up.
+Click **Continue** in the sidebar or press **`Ctrl+L`** / **`Cmd+L`**. Chat and autocomplete use **Qwen3 Coder Next** via OpenRouter—nothing to add or configure.
 
 ---
 
-**Local VS Code:** Clone, install [Continue](https://marketplace.visualstudio.com/items?itemName=Continue.continue), then open chat (key is already in the repo).
+**Local VS Code:** Clone, install [Continue](https://marketplace.visualstudio.com/items?itemName=Continue.continue); model and key are already in the repo.
 
-> **Note:** The OpenRouter API key is in this repo for zero-friction demo use. If the repo is public, consider revoking that key at [openrouter.ai/keys](https://openrouter.ai/keys) and using [Codespace secrets](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-encrypted-secrets-for-your-codespaces) instead.
+> **Note:** The OpenRouter API key is in this repo so students don’t have to add one. If the repo is public, consider revoking it at [openrouter.ai/keys](https://openrouter.ai/keys) and using [Codespace secrets](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-encrypted-secrets-for-your-codespaces) instead.

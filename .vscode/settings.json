@@ -1,4 +1,5 @@
 {
   "workbench.startupEditor": "none",
-  "workbench.panel.defaultLocation": "bottom"
+  "workbench.panel.defaultLocation": "bottom",
+  "github.copilot.chat.enabled": false
 }

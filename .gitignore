@@ -1,0 +1,8 @@
+# Optional: uncomment to avoid committing API keys if you put them in config
+# .continue/config.json
+
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store

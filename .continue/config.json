@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "title": "Qwen3 Coder Agent",
+      "provider": "openrouter",
+      "model": "qwen/qwen3-coder-agent",
+      "apiKey": ""
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "Qwen3 Coder Agent",
+    "provider": "openrouter",
+    "model": "qwen/qwen3-coder-agent",
+    "apiKey": ""
+  }
+}
